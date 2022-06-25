@@ -7,3 +7,9 @@
   margin: auto;
 }
 
+@media screen and (min-width: 1024px){
+  .lead__image {
+    height: 580px;
+    width: 928px;
+  }
+}

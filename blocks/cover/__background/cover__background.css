@@ -7,3 +7,10 @@
   position: relative;
   z-index: 1;
 }
+
+@media screen and (max-width: 1024px){
+  .cover__background {
+    height: 640px;
+    width: 1024px;
+  }
+}

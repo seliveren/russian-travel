@@ -14,3 +14,10 @@
   margin: 0;
   z-index: 3;
 }
+
+@media screen and (max-width: 1024px){
+  .cover__title {
+    top: 195px;
+    left: 232px;
+  }
+}

@@ -14,3 +14,10 @@
   top: 429px;
   left: 412px;
 }
+
+@media screen and (max-width: 1024px){
+  .cover__subtitle {
+    top: 379px;
+    left: 332px;
+  }
+}

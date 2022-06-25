@@ -11,3 +11,9 @@
   width: 100%;
   padding-right: calc(984px - 158px);
 }
+
+@media screen and (min-width: 1024px){
+  .lead__caption {
+    padding-right: calc(928px - 158px);
+  }
+}
