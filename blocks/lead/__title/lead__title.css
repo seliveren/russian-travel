@@ -1,0 +1,13 @@
+.lead__title {
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Inter', 'Arial', sans-serif; 
+  font-size: 96px;
+  font-weight: 900;
+  line-height: 100px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding: 0px 0px 32px;
+  max-width: 720px;
+  width: 100%;
+  margin: auto;
+}

@@ -1,0 +1,13 @@
+.place__title {
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Inter', 'Arial', sans-serif; 
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 0px 0px 48px;
+  margin: 0;
+  max-width: 460px;
+  width: 100%;
+}

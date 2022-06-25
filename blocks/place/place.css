@@ -1,0 +1,6 @@
+.place {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  justify-content: space-between;
+}
