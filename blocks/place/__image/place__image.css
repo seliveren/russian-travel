@@ -2,3 +2,10 @@
   height: 460px;
   width: 460px;
 }
+
+@media screen and (max-width: 768px){
+  .place__image {
+    height: 340px;
+    width: 340px;
+  }
+}

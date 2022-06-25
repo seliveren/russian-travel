@@ -7,13 +7,21 @@
   letter-spacing: 1.5px;
   text-align: left;
   margin: auto;
-  max-width: 158px;
+  max-width: 159px;
   width: 100%;
   padding-right: calc(984px - 158px);
+  text-transform: uppercase;
 }
 
-@media screen and (min-width: 1024px){
+@media screen and (max-width: 1024px){
   .lead__caption {
     padding-right: calc(928px - 158px);
+  }
+}
+
+@media screen and (max-width: 768px){
+  .lead__caption {
+    padding-left: 24px;
+    max-width: 159px;
   }
 }
