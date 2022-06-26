@@ -1,11 +1,21 @@
 .place__image {
   height: 460px;
   width: 460px;
+  grid-row-start: 2/4;
+  grid-column-start: 1/2;
 }
 
 @media screen and (max-width: 768px){
   .place__image {
     height: 340px;
     width: 340px;
+  }
+}
+
+@media screen and (max-width: 425px){
+  .place__image {
+    grid-column: 1;
+    grid-row-start: 3/5;
+    padding-bottom: 32px;
   }
 }

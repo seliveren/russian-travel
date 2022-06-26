@@ -16,7 +16,6 @@
     grid-gap: 14px;
     height: 942px;
     max-width: 928px;
-    width: 100%;
   }
 }
 
@@ -28,6 +27,16 @@
     grid-gap: 16px;
     height: 1664px;
     max-width: 720px;
-    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 425px){
+  .photo-grid__items {
+    grid-template-columns: repeat(1, 288px);
+    grid-template-rows: repeat(12, 216px);
+    grid-gap: 12px;
+    height: 2724px;
+    max-width: 288px;
   }
 }

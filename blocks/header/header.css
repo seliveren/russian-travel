@@ -8,3 +8,9 @@
   box-sizing: border-box;
   margin: auto;
 }
+
+@media screen and (max-width: 425px){
+  .header{
+    padding: 16px 16px 48px;
+  }
+}

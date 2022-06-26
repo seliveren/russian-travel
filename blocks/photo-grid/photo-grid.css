@@ -8,3 +8,9 @@
     padding: 0px 24px 88px;
   }
 }
+
+@media screen and (max-width: 425px){
+  .photo-grid {
+    padding: 0px 16px 64px;
+  }
+}

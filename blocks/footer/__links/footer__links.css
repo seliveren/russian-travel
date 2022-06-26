@@ -5,3 +5,13 @@
   display: flex;
   gap: 18px;
 }
+
+
+@media screen and (max-width: 425px){
+  .footer__links {
+    max-width: 186px;
+    gap: 32px;
+    flex-direction: column;
+    padding-bottom: 48px;
+  }
+}
