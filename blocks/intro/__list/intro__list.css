@@ -13,8 +13,36 @@
   width: 100%;
 }
 
+
+@media screen and (max-width: 740px){
+  .intro__list {
+    max-width: 590px;
+  }
+}
+
+@media screen and (max-width: 680px){
+  .intro__list {
+    max-width: 520px;
+  }
+}
+
+
+@media screen and (max-width: 600px){
+  .intro__list {
+    max-width: 420px;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .intro__list {
+    max-width: 320px;
+  }
+}
+
+
 @media screen and (max-width: 425px){
   .intro__list {
     max-width: 288px;
   }
 }
+

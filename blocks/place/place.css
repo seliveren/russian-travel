@@ -7,19 +7,19 @@
   grid-auto-columns: 0px;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1060px){
   .place {
     grid-column-gap: 32px;
   }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 900px){
   .place {
     grid-column-gap: 28px;
   }
 }
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 630px){
   .place {
     grid-template-columns: auto;
     grid-template-rows: repeat(6, minmax(min-content, max-content));

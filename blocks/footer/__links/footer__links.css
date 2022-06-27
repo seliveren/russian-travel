@@ -7,7 +7,7 @@
 }
 
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 650px){
   .footer__links {
     max-width: 186px;
     gap: 32px;

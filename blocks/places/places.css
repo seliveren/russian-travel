@@ -7,13 +7,13 @@
   padding: 0px 148px 92px;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1120px){
   .places {
     padding: 0px 48px 92px;
   }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 900px){
   .places {
     gap: 73px;
     padding: 0px 24px 90px;
@@ -27,7 +27,7 @@
   }
 }
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 630px){
   .places {
     padding: 0;
     gap: 50px;

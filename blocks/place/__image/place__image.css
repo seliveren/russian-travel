@@ -5,14 +5,14 @@
   grid-column-start: 1/2;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 900px){
   .place__image {
     height: 340px;
     width: 340px;
   }
 }
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 630px){
   .place__image {
     grid-column: 1;
     grid-row-start: 3/5;

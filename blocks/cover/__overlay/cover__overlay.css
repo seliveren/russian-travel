@@ -7,6 +7,8 @@
   transition: opacity 1s ease;
 }
 
+
+
 @media screen and (max-width: 1024px){
   .cover__overlay {
     height: 640px;
@@ -25,6 +27,6 @@
   .cover__overlay {
     height: 200px;
     width: 320px;
-    padding-top: 66px;
   }
 }
+

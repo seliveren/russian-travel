@@ -18,6 +18,31 @@
   }
 }
 
+@media screen and (max-width: 740px){
+  .intro__text {
+    max-width: 590px;
+  }
+}
+
+
+@media screen and (max-width: 680px){
+  .intro__text {
+    max-width: 520px;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .intro__text {
+    max-width: 420px;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .intro__text {
+    max-width: 320px;
+  }
+}
+
 @media screen and (max-width: 425px){
   .intro__text {
     max-width: 288px;
