@@ -8,8 +8,8 @@
   max-width: 560px;
   width: 100%;
   position: absolute;
-  top: 245px;
-  left: 312px;
+  top: 33.1%;
+  left: 26.35%;
   text-align: center;
   margin: 0;
   z-index: 3;
@@ -28,6 +28,7 @@
     left: 104px;
   }
 }
+
 
 @media screen and (max-width: 425px){
   .cover__title {

@@ -11,8 +11,8 @@
   margin: auto;
   position: absolute;
   z-index: 3;
-  top: 429px;
-  left: 412px;
+  top: 58%;
+  left: 35%;
 }
 
 @media screen and (max-width: 1024px){
