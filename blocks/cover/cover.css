@@ -1,7 +1,6 @@
 .cover {
   height: 740px;
-  max-width: 1184px;
-  width: 100%;
+  width: 1184px;
   margin: auto;
   position: relative;
   z-index: 1;
@@ -18,22 +17,21 @@
 @media screen and (max-width: 1024px){
   .cover {
     height: 640px;
-    max-width: 1024px;
+    width: 1024px;
   }
 }
 
 @media screen and (max-width: 768px){
   .cover {
     height: 480px;
-    max-width: 768px;
+    width: 768px;
   }
 }
-
 
 @media screen and (max-width: 425px){
   .cover {
     height: 200px;
-    max-width: 320px;
+    width: 320px;
     padding-top: 66px;
   }
 }

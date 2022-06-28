@@ -8,13 +8,13 @@
   align-self: end;
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 768px){
   .place__website {
     margin: 0px 0px 48px;
   }
 }
 
-@media screen and (max-width: 630px){
+@media screen and (max-width: 425px){
   .place__website {
     grid-column: 1;
     grid-row: 2/3;

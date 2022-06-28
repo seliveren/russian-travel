@@ -3,12 +3,10 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 740px;
-  max-width: 1184px;
+  width: 1184px;
   position: relative;
   z-index: 1;
 }
-
-
 
 @media screen and (max-width: 1024px){
   .cover__background {
@@ -30,4 +28,3 @@
     width: 320px;
   }
 }
-

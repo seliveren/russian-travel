@@ -9,22 +9,7 @@
   width: 100%;
 }
 
-
-@media screen and (min-width: 1024px) and (max-width: 1279px){
-  .photo-grid__items {
-    grid-template-columns: repeat(3, 300px);
-    grid-template-rows: repeat(4, 225px);
-    grid-gap: 14px;
-    height: 942px;
-    max-width: 928px;
-    justify-content: center;
-  }
-}
-
-
-
-
-@media screen and (min-width: 971px) and (max-width: 1023px){
+@media screen and (max-width: 1024px){
   .photo-grid__items {
     grid-template-columns: repeat(3, 300px);
     grid-template-rows: repeat(4, 225px);
@@ -35,58 +20,18 @@
 }
 
 
-@media screen and (min-width: 768px) and (max-width: 970px){
+@media screen and (max-width: 768px){
   .photo-grid__items {
-    grid-template-columns: repeat(2, 357px);
-    grid-template-rows: repeat(6, 257px);
-    grid-gap: 24px;
-    height: 1668px;
-    max-width: 1728px;
-    justify-content: center;
-
+    grid-template-columns: repeat(2, 352px);
+    grid-template-rows: repeat(6, 264px);
+    grid-gap: 16px;
+    height: 1664px;
+    max-width: 720px;
   }
 }
 
 
-
-@media screen and (min-width: 627px) and (max-width: 767px){
-  .photo-grid__items {
-    grid-template-columns: repeat(1, 632px);
-    grid-template-rows: repeat(12, 462px);
-    grid-gap: 53px;
-    height: 6140px;
-    max-width: 288px;
-    justify-content: center;
-    
-  }
-}
-
-
-@media screen and (min-width: 551px) and (max-width: 626px){
-  .photo-grid__items {
-    grid-template-columns: repeat(1, 627px);
-    grid-template-rows: repeat(12, 393px);
-    grid-gap: 33px;
-    height: 5082px;
-    max-width: 288px;
-    justify-content: center;
-    
-  }
-}
-
-@media screen and (max-width: 550px){
-  .photo-grid__items {
-    grid-template-columns: repeat(1, 459px);
-    grid-template-rows: repeat(12, 374px);
-    grid-gap: 10px;
-    height: 4582px;
-    max-width: 288px;
-    justify-content: center;
-  }
-}
-
-
-@media screen and (max-width: 484px){
+@media screen and (max-width: 425px){
   .photo-grid__items {
     grid-template-columns: repeat(1, 288px);
     grid-template-rows: repeat(12, 216px);

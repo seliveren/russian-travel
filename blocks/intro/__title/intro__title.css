@@ -12,37 +12,11 @@
   width: 100%
 }
 
-
-@media screen and (max-width: 740px){
-  .intro__title {
-    max-width: 590px;
-
-  }
-}
-
-@media screen and (max-width: 680px){
-  .intro__title {
-    max-width: 520px;
-  }
-}
-
-@media screen and (max-width: 600px){
-  .intro__title {
-    max-width: 420px;
-  }
-}
-
-@media screen and (max-width: 500px){
-  .intro__title {
-    max-width: 320px;
-    font-size: 32px;
-    line-height: 35px;
-    padding: 0px 16px 0px;
-  }
-}
-
 @media screen and (max-width: 425px){
   .intro__title {
     max-width: 288px;
+    font-size: 32px;
+    line-height: 35px;
+    padding: 0px 16px 0px;
   }
 }
