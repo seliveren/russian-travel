@@ -13,7 +13,7 @@
 
 @media screen and (max-width: 768px){
   .intro {
-    padding: 0px 0px /*calc(100vw - 690px - 48px)*/ 88px 0px;
+    padding: 0px 0px 88px 0px;
     max-width: 719px; 
   }
 }
