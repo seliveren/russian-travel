@@ -6,3 +6,9 @@
   justify-content: space-between;
   padding-bottom: 5px;
 }
+
+@media screen and (max-width: 425px){
+  .header__lang-links {
+    padding-bottom: 8px;
+  }
+}

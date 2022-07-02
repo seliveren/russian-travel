@@ -26,7 +26,7 @@
   }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 837px){
   .place__paragraph {
     max-width: 352px;
     font-size: 16px;
@@ -34,15 +34,20 @@
   }
 }
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 600px){
   .place__paragraph {
-    max-width: 288px;
+    max-width: 285.9px;
     grid-column: 1;
     grid-row: 5/6;
-    padding: 0px 26px 0px;
+    padding: 32px 0px 0px 16px; 
+    line-height: 26px;
+    letter-spacing: 0em;
   }
   .place__paragraph:nth-of-type(2) {
     grid-column: 1;
     grid-row: 6/7;
+    padding-top: 1px;
+    max-width: 285px;
+    letter-spacing: 0em;
   }
 }

@@ -2,10 +2,8 @@
   margin: auto;
   padding: 92px 48px 24px;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   max-width: 1184px;
-  width: 100%;
 }
 
 @media screen and (max-width: 1024px){
@@ -17,16 +15,28 @@
 @media screen and (max-width: 768px){
   .footer {
     max-width: 720px;
-    padding: 88px 24px 24px;
+    padding: 88px 24px 20px;
+  }
+}
+
+@media screen and (max-width: 698px){
+  .footer {
+    flex-direction: column;
+    max-width: 432px;
+    padding: 64px 118px 22px 16px;
+    align-items: flex-start;
   }
 }
 
 
+@media screen and (max-width: 600px){
+  .footer {
+    max-width: 312px;
+  }
+}
+
 @media screen and (max-width: 425px){
   .footer {
-    flex-direction: column;
     max-width: 186px;
-    padding: 64px 118px 24px 16px;
-    align-items: flex-start;
   }
 }

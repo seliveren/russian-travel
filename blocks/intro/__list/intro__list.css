@@ -13,7 +13,13 @@
   width: 100%;
 }
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 768px){
+  .intro__list {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 600px){
   .intro__list {
     max-width: 288px;
   }

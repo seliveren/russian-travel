@@ -4,20 +4,33 @@
   font-size: 96px;
   font-weight: 900;
   line-height: 100px;
-  letter-spacing: 0em;
+  letter-spacing: 0.007em;
   text-align: center;
   padding: 0px 0px 32px;
   max-width: 720px;
   width: 100%;
-  margin: auto;
+  margin: 0 auto;
 }
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 698px){
+  .lead__title {
+    max-width: 410px;
+    font-size: 55px;
+    line-height: 64px;
+    padding: 0px 0px 16px;
+    letter-spacing: 0.0090em;
+  }
+}
+
+@media screen and (max-width: 600px){
   .lead__title {
     max-width: 288px;
-    padding-bottom: 40px;
     font-size: 40px;
     line-height: 44px;
     padding: 0px 0px 16px;
+    letter-spacing: 0.0090em;
   }
 }
+
+
+

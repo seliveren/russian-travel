@@ -7,9 +7,15 @@
   letter-spacing: 0em;
   text-align: left;
   padding: 40px 0px 33px;
-  margin: auto;
+  margin: 0 auto;
   max-width: 690px;
   width: 100%;
+}
+
+@media screen and (max-width: 1024px){
+  .intro__text {
+    max-width: 708px;
+  }
 }
 
 @media screen and (max-width: 768px){
@@ -18,9 +24,10 @@
   }
 }
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 600px){
   .intro__text {
     max-width: 288px;
-    padding: 40px 16px 34px;
+    padding: 39px 0px 34px;
+
   }
 }

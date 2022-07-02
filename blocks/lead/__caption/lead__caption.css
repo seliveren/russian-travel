@@ -6,17 +6,10 @@
   line-height: 14px;
   letter-spacing: 1.5px;
   text-align: left;
-  margin: auto;
+  margin: auto auto auto 0px;
   max-width: 159px;
   width: 100%;
-  padding-right: calc(984px - 158px);
   text-transform: uppercase;
-}
-
-@media screen and (max-width: 1024px){
-  .lead__caption {
-    padding-right: calc(928px - 158px);
-  }
 }
 
 @media screen and (max-width: 768px){
@@ -27,6 +20,6 @@
 
 @media screen and (max-width: 425px){
   .lead__caption {
-    padding-left: 16px;
+    padding-left: 18px;
   }
 }
