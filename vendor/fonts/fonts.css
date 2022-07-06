@@ -23,8 +23,8 @@
 
 
 @font-face {
-  src: url('../Inter/Inter-ExtraBold.woff') format('woff'),
-       url('../Inter/Inter-ExtraBold.woff2') format('woff2');
+  src: url('../Inter/Inter-Black.woff') format('woff'),
+       url('../Inter/Inter-Black.woff2') format('woff2');
   font-family: 'Inter';
   font-weight: 900;
 } 
