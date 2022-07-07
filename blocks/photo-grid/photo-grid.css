@@ -5,7 +5,6 @@
   grid-template-rows: repeat(3, 1fr);
   grid-gap: 16px;
   margin: 0 auto;
-  height: 671px;
   max-width: 1184px;
 }
 
@@ -15,7 +14,6 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr);
     grid-gap: 14px;
-    height: 942px;
     max-width: 928px;
   }
 }
@@ -26,7 +24,6 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, 1fr);
     grid-gap: 16px;
-    height: 1664px;
     max-width: 720px;
   }
 }
@@ -37,7 +34,6 @@
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(12, 1fr);
     grid-gap: 12px;
-    height: 2724px;
     max-width: 288px;
   }
 }
