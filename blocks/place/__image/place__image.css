@@ -1,8 +1,8 @@
 .place__image {
   height: 460px;
   width: 460px;
-  grid-row-start: 2/4;
-  grid-column-start: 1/2;
+  grid-row: 2/4;
+  grid-column: 1/2;
 }
 
 @media screen and (max-width: 1024px){
@@ -22,7 +22,7 @@
 @media screen and (max-width: 600px){
   .place__image {
     grid-column: 1;
-    grid-row-start: 3/5;
+    grid-row: 3/5;
     height: 320px;
     width: 320px;
   }
