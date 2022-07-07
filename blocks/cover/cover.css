@@ -9,6 +9,7 @@
 .cover::before {    
   content: "";
   background-image: url('../../images/cover-trains.jpg');
+  display: block;
   background-repeat: no-repeat;
   background-size: contain;
   position: absolute;
